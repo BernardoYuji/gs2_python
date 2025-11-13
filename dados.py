@@ -6,6 +6,8 @@
 # Link dos dados do IDH: https://pt.wikipedia.org/wiki/Lista_de_pa%C3%ADses_por_%C3%8Dndice_de_Desenvolvimento_Humano
 # Link dos dados da inflação: https://www.dadosmundiais.com/inflacao.php#google_vignette
 
+from pprint import pprint
+
 dados_paises = {
 
     "India": {
@@ -148,3 +150,5 @@ dados_paises = {
         "inflacao": "0,5%"
     },
 }
+
+pprint(dados_paises, sort_dicts=False)
